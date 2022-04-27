@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+body {margin: 0px;padding: 0px;font-family: Arial, Helvetica, sans-serif;}
+* {color: black !important;text-shadow: none !important;filter: none !important;-ms-filter: none !important;}
+html {font-family: Arial, Helvetica, sans-serif;font-size: 9pt; line-height: 1.2em;}
+html {break-before: always}
+
+
+
+p, h1, h3, h5 {orphans: 3;widows: 3;padding: 0px;margin: 0px;}
+h1 {font-size: 16pt;  margin-bottom: 15px;}
+h3 {font-size: 12pt; margin-bottom: 10px;}
+h5 {font-size: 10px;}
+
+.box  {-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;border: 1px solid #000;padding: 10px; width: 95%;margin-top: 5px;}
+.cartola-header {height: 110px; padding-top: 5px;} 
+.cartola-header div {margin-top: 20px;text-align: center;}
+.cartola-logo {height: 110px;position: absolute; top:0px;}
+.cartola-body {margin-top: 20px;}
+.cartola-body div {margin-left: 20px;}
+.cartola-frase-borde {position: absolute;}
+
+/* Flecha rango */
+#rango {height: auto;margin-bottom: 0px;margin-top: 10px; width: 100%; max-width: 700px}
+.flecha_rango {max-width: 450px; width: 100%; position: inherit;margin-top: 5px;}
+.cursor_rango {}
+
+/* Clases para mover el rango de la fecha indicadora */
+.rango-40 { margin-left: 0% !important}
+.rango-50 { margin-left: 13% !important}
+.rango-60 { margin-left: 27% !important}
+.rango-70 { margin-left: 42% !important}
+.rango-80 { margin-left: 55% !important}
+.rango-90 { margin-left: 70% !important}
+.rango-100 { margin-left: 85% !important}
+
+
